@@ -4,6 +4,8 @@ import DataBinding from '@/views/DataBinding.vue'
 import DataBindingButton from '@/views/DataBindingButton.vue'
 import DataBindingClass from '@/views/DataBindingClass.vue'
 import DataBindingClass2 from '@/views/DataBindingClass2.vue'
+import DataBindingStyle from '@/views/DataBindingStyle.vue'
+import DataBindingList from '@/views/DataBindingList.vue'
 
 const routes = [
   {
@@ -38,6 +40,16 @@ const routes = [
     path: '/dataBindingClass2',
     name: 'DataBindingClass2',
     component: DataBindingClass2
+  },
+  {
+    path: '/dataBindingStyle',
+    name: 'DataBindingStyle',
+    component: DataBindingStyle
+  },
+  {
+    path: '/dataBindingList',
+    name: 'DataBindingList',
+    component: DataBindingList
   }
 ]
 

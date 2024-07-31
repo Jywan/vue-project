@@ -5,7 +5,9 @@
     <router-link to="/dataBinding">DataBinding</router-link> |
     <router-link to="/dataBindingButton">DataBindingButton</router-link> |
     <router-link to="/dataBindingClass">DataBindingClass</router-link> |
-    <router-link to="/dataBindingClass2">DataBindingClass2</router-link>
+    <router-link to="/dataBindingClass2">DataBindingClass2</router-link> |
+    <router-link to="/dataBindingStyle">DataBindingStyle</router-link> |
+    <router-link to="/dataBindingList">DataBindingList</router-link>
   </nav>
   <router-view/>
 </template>
