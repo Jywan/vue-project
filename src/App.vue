@@ -7,7 +7,11 @@
     <router-link to="/dataBindingClass">DataBindingClass</router-link> |
     <router-link to="/dataBindingClass2">DataBindingClass2</router-link> |
     <router-link to="/dataBindingStyle">DataBindingStyle</router-link> |
-    <router-link to="/dataBindingList">DataBindingList</router-link>
+    <router-link to="/dataBindingList">DataBindingList</router-link> |
+    <router-link to="/renderingVIf">RenderingVIf</router-link> |
+    <router-link to="/eventClick">EventClick</router-link> 
+    <br>
+    <router-link to="/eventChange">EventChange</router-link> |
   </nav>
   <router-view/>
 </template>
